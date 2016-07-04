@@ -1,0 +1,172 @@
+                .body {
+                    max-width: 100%;
+                    display: block;
+                    background: #696969;
+                    margin: 0 auto;
+                }
+                
+                .wrapper {
+                    box-sizing: border-box;
+                    width: 1060px;
+                    height: 950px;
+                    margin: 0 auto;
+                    padding-left: 47px;
+                    padding-right: 47px;
+                    background: #ffffff;
+                    box-shadow: 0px 0px 4px #9E9E9E;
+                }
+                
+                .header {}
+                
+                .font-logo {
+                    position: relative;
+                    left: -4px;
+                    padding-top: 42px;
+                    font-size: 36pt;
+                    font-family: "Trebuchet MS";
+                    letter-spacing: -0.02em;
+                }
+                
+                .font-logo:first-letter {
+                    font-size: 115%;
+                }
+                /*  верхнее  горизонтальное меню  */
+                
+                .box-menu-hor-top {
+                    height: 40px;
+                    background: #4F4E4E;
+                    margin-top: 33px;
+                }
+                
+                .menu-hor-top__item {
+                    display: inline-block;
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    margin-right: -4px;
+                    padding-left: 22px;
+                    padding-right: 60px;
+                    border-left: 1px solid #4F4E4E;
+                    border-right: 1px solid #4F4E4E;
+                }
+                
+                .menu-hor-top__item:hover {
+                    background: #2E2E2E;
+                    border-left: 1px solid #C8C8C8;
+                    border-right: 1px solid #C8C8C8;
+                }
+                
+                .menu-hor-top__item a {
+                    text-decoration: none;
+                    color: white;
+                    font-family: "Verdana";
+                    font-size: 11pt;
+                }
+                /*  боковое вертикальное меню слева   */
+                
+                .main {
+                    height: 640px;
+                    margin-top: 40px;
+                }
+                
+                .box-menu-ver {
+                    width: 240px;
+                    float: left;
+                }
+                
+                .menu-ver {
+                    margin: 0;
+                    padding: 0px;
+                    list-style: none;
+                }
+                
+                .menu-vert__item {
+                    margin-bottom: -1px;
+                    margin-right: 0px;
+                    padding: 11px 60px 12px 22px;
+                    border: 1px solid #C8C8C8;
+                    color: darkgray;
+                }
+                
+                .menu-vert__item:hover {
+                    background: #f5f5f5;
+                    color: black;
+                    padding-left: 34px;
+                }
+                
+                .menu-vert__item a {
+                    font-family: "Verdana";
+                    font-size: 10pt;
+                    text-decoration: none;
+                    color: inherit;
+                }
+                /*  box-content  */
+                
+                .box-content {
+                    width: 678px;
+                    float: right;
+                }
+                
+                .frame {
+                    display: table-cell;
+                    vertical-align: middle;
+                    width: 678px;
+                    height: 398px;
+                    border: 1px solid #C8C8C8;
+                }
+                
+                .frame img {
+                    display: block;
+                    margin: auto;
+                }
+                
+                p {
+                    margin-top: 32px;
+                    padding-left: 22px;
+                    padding-right: 18px;
+                    font-family: "Lucida Sans Unicode";
+                    font-size: 10pt;
+                    line-height: 165%;
+                    /* межстрочное расстояние  в пределах элемента (normal, inherit)) */
+                }
+                
+                .clearfix:after {
+                    content: "";
+                    clear: both;
+                    display: block;
+                }
+                /*  <footer>   */
+                
+                .box-menu {
+                    height: 40px;
+                    background: #E1E1E1;
+                }
+                
+                .menu-hor {
+                    display: inline-block;
+                }
+                
+                .menu-hor__item {
+                    display: inline-block;
+                    margin-right: -5px;
+                    padding: 12px 64px 12px 24px;
+                }
+                
+                .menu-hor__item a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: "Lucida Sans Unicode";
+                    font-size: 13px;
+                }
+                
+                .menu-hor__item:hover {
+                    text-decoration: underline;
+                }
+                
+                .year-copyright {
+                    display: inline-block;
+                    padding-top: 14px;
+                    padding-bottom: 14px;
+                    margin-left: 224px;
+                    font-family: "Lucida Sans Unicode";
+                    font-size: 13px;
+                }
